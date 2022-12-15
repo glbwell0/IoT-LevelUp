@@ -85,6 +85,8 @@ That's all -You're ready to go!!!<p>
    </ul>
  <li><b>Body:</b> Write the text for your email. Select JSON properties from the selector tool to include dynamic content based on event data. If you can't see the Dynamic content, select the <b>Add dynamic content</b> hyperlink under the <b>Body</b> text box. If it doesn't show you the fields you want, click more in the Dynamic content screen to include the fields from the previous action.
  
+ ![AlertEmailBody](https://github.com/glbwell0/IoT-LevelUp/blob/9d8a0ce9ef44422b248a6b871bee4861a5c0f378/IoTDeviceConnectionStateAlert-Body.png)
+ 
    
 
  
