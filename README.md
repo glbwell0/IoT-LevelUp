@@ -74,3 +74,11 @@ Let's get your environment setup with a few <b><a href="prerequisites.md">Prereq
  ![WebHookURL](./images/HTTPWebHook-URL.png)
  
 </ol>
+<h2>Create & Configure an Event Grid Subscription for IoT Hub Events</h2>
+<ol>
+<li>In the Azure portal, navigate to your IoT Hub and select the <b>Events</b> panel
+
+![IoTHubEventGrid](./images/IotHub-EventGrid.png)
+
+
+
