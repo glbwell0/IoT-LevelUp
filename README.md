@@ -3,8 +3,6 @@
 Let's get your environment setup.  This should only take about 10 minutes.
 <h2><a href="prerequisites.md">Prerequisites</a></h2>
 
-<h1>Prerequisites</h1>
-
 <h1>Hands-On Lab</h1>
 
 <h2>Use Event Grid to Alert for IoT Hub Events</h2>
