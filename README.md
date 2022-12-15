@@ -29,7 +29,7 @@ That's all -You're ready to go!!!<p>
 <td width="20%" valign="top"><br>This exercise will use Azure Event Grid to trigger an email to notify someone every time an IoT device connects or disconnects.</td>
 <td>
 
-![EventGridDiagram](https://github.com/glbwell0/IoT-LevelUp/blob/5f309070fc7d9212e47b72e53f130a8122008494/EventGridDiagram.png) 
+![EventGridDiagram](./images/EventGridDiagram.png) 
 
 </td>
 </tr>
