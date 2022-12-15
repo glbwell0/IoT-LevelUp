@@ -18,6 +18,6 @@
 <pre><code class="lang-azurecli">az provider register --namespace 'Microsoft.EventGrid'
 </code></pre>
 </ol>
-  
-  
+<p>
+
 <h2>Use Event Grid to Alert for IoT Hub Events</h2>
