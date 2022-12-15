@@ -87,8 +87,9 @@ That's all -You're ready to go!!!<p>
  
  ![AlertEmailBody](./images/IoTDeviceConnectionStateAlert-Body.png)
  
- <li>Return to the first task titled <b>When a HTTP request is received<b> by clicking the box
+ <li>Return to the first task titled <b>When a HTTP request is received</b> by clicking the box
  <li>Copy the <b>HTTP POST URL</b>.  We're going to use this when configuring the Event Grid.
-
+ 
+ ![WebHookURL](./images/HTTPWebHook-URL.png)
  
 </ol>
