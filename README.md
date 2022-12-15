@@ -1,4 +1,8 @@
 # IoT-LevelUp
+<p>
+Let's get your environment setup.  This should only take about 10 minutes.
+<h2><a href="Prerequisites.md">Prerequisites</a></h2>
+
 <h1>Prerequisites</h1>
 
 <h3>Create a new Resource Group with an IoT Hub</h3>
