@@ -19,4 +19,4 @@
 </ol>
 <p>
 That's all -You're ready to go!!!<p>
-  <a href="README.md">Return to the Hands-on Lab</a>
+  <a href="README.md"><b>Return to the Hands-on Lab<b></a>
