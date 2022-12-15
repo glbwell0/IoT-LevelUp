@@ -1,7 +1,6 @@
 # IoT-LevelUp
 <p>
-Let's get your environment setup.  This should only take about 10 minutes.
-<h2><a href="prerequisites.md">Prerequisites</a></h2>
+Let's get your environment setup.  This should only take about 10 minutes. <h2><a href="prerequisites.md">Prerequisites</a></h2>
 
 <h1>Hands-On Lab</h1>
 
