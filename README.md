@@ -19,5 +19,18 @@
 </code></pre>
 </ol>
 <p>
+That's all -You're ready to go!!!<p>
+
+<h1>Hands-On Lab</h1>
 
 <h2>Use Event Grid to Alert for IoT Hub Events</h2>
+<table>
+<tr>
+<td width="20%" valign="top"><br>This exercise will use Azure Event Grid to trigger an email to notify someone every time an IoT device connects or disconnects.</td>
+<td>
+
+![EventGridDiagram](https://user-images.githubusercontent.com/9772700/207942390-1f10e243-c53e-4eda-b9e1-4be2f7c70aaf.png) 
+
+</td>
+</tr>
+</table>
