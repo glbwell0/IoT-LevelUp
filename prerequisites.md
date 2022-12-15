@@ -4,10 +4,10 @@
 <ol>
 <li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com" target="_blank">https://shell.azure.com</a>
 <li>Run the following command to create a new resource group:<p>
-<pre><code class="lang-azurecli">az group create --name {your resource group name} --location eastus
+  <pre><code class="lang-azurecli">az group create --name <i>{your resource group name}</i> --location eastus
 </code></pre><p>
 <li>Run the following command to create an IoT hub:<p>
-<pre><code class="lang-azurecli">az iot hub create --name {your iot hub name} --resource-group {your resource group name} --sku S1 
+  <pre><code class="lang-azurecli">az iot hub create --name <i>{your iot hub name}</i> --resource-group <i>{your resource group name}</i> --sku S1 
 </code></pre>
 </ol>  
 <h3>Verify the Microsoft.EventGrid resource is registered</h3>
