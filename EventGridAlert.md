@@ -70,7 +70,7 @@
  ![WebHookURL](./images/HTTPWebHook-URL.png)
  
 </ol>
-<h2>Create & Configure an Event Grid Subscription for IoT Hub Events</h2>
+<h3>Create & Configure an Event Grid Subscription for IoT Hub Events</h2>
 <ol>
 <li>In the Azure portal, navigate to your IoT Hub and select the <b>Events</b> panel
 
@@ -104,6 +104,8 @@
   <img src="./images/CreateEventSubscription.png" style="border:1px solid black">
   <li>Click the <b>Create</b> button
 </li>
+<p>
+<h3>Simulate a New Device Connecting and Sending Telemetry
     
     
   
