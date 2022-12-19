@@ -32,4 +32,4 @@
   <li>Return to the <b>RaspberryPi Simulator</b> and click the <b>Stop</b> link located just below the code window
 </ol>
 <p><p>
-  You can now return to the <a href="ReadMe.md">Mail Lab Screen</a>
+  You can now return to the <a href="README.md">Mail Lab Screen</a>
