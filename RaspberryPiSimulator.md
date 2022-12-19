@@ -12,5 +12,6 @@
 </tr>
 </table>
 <p>
-<h3>Create a Logic App That Sends an Email</h3>
 <ol>
+<li>Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted" data-linktype="external">here</a> to launch the RaspberryPi Simulator
+  
