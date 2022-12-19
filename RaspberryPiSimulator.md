@@ -14,4 +14,4 @@
 <p>
 <ol>
 <li>Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted" data-linktype="external">here</a> to launch the RaspberryPi Simulator
-  
+<li>[Stackoverflow The Key](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/){:target="_blank" rel="noopener"}
