@@ -1,4 +1,4 @@
-# IoT-LevelUp
+# LevelUp -IoT Hub & Device Provisioning Service (DPS)
 <p>
 Let's get your environment setup with a few <b><a href="prerequisites.md">Prerequisites</a></b>.  This should only take about 15 minutes.
 <p>
