@@ -31,5 +31,5 @@
   <li>Stop monitoring the telemetry by clicking the <b>Stop</b> button at the top
   <li>Return to the <b>RaspberryPi Simulator</b> and click the <b>Stop</b> link located just below the code window
 </ol>
-<p><p>
+<br><br>
   You can now return to the <a href="README.md">Mail Lab Screen</a>
