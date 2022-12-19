@@ -13,5 +13,7 @@
 </table>
 <p>
 <ol>
-<li>Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted" data-linktype="external">here</a> to launch the RaspberryPi Simulator
-<li>[go](https://stackoverflow.blog/2021/03/31/the-key-copy-paste/){:target="_blank" rel="noopener"}
+  <li>Launch the
+  <li><b><i>Ctrl</b></i>-Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted">here</a> to launch the RaspberryPi Simulator
+  <li>Copy your <u>device</u> connection string into the code on line 15
+    
