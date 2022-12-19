@@ -98,15 +98,29 @@
     <li>Select <b>Endpoint Type</b> as <b>Web Hook</b>
     <li>Click <b>Select an Endpoint</b>, paste the URL that you copied from your logic app, and confirm selection
   </ul>
+  </ul>
   <br>
   When you're done, the pane should look like the following example:
   <br><br>
   <img src="./images/CreateEventSubscription.png" style="border:1px solid black">
   <li>Click the <b>Create</b> button
-</li>
+</ol>
+<h3>Simulate a New Device Connecting and Sending Telemetry</h3>
+<ol>
+<li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com">https://shell.azure.com</a>
+<li>Run the following command to create a simulated device identity:
 <p>
-<h3>Simulate a New Device Connecting and Sending Telemetry
-    
-    
+  <pre><code class="lang-azurecli">az iot hub device-identity create --device-id SimulatedDevice --hub-name <i>{YourIoTHubName}</i>
+</code></pre>
+<sub>The processing could take a minute. You'll see a JSON printout in your console once it's created.</sub><p>
+<li>Run the following command to simulate connecting your device to IoT Hub and sending telemetry:
+<p>
+  <pre><code class="lang-azurecli">az iot device simulate -d SimulatedDevice -n <i>{YourIoTHubName}</i>
+</code></pre>
+<li>When the simulated device connects to IoT Hub, you'll receive an email notifying you of a <b>"DeviceConnected"</b> event
+<li>When the simulation completes, you'll receive an email notifying you of a <b>"DeviceDisconnected"</b> event
+</ol>
+<br><br>
+You can now return to the <a href="README.md">Main Lab Screen</a>
   
 
