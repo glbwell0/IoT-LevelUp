@@ -21,6 +21,9 @@
 <h3>Install the Azure IoT Explorer</h3>
 <ol>
 <li>Click <a href="https://github.com/Azure/azure-iot-explorer/releases/download/v0.15.4/Azure.IoT.Explorer.Preview.0.15.4.msi">here</a> to download and install.
+<li>Launch the application if it does not automatically start
+<li>Click the <b>+ Add Connection</b> button
+<li>Paste your IoT Hub's connection string and click the <b>Save</b> button
 </ol>
 <br>
 <h3>Verify the Microsoft.EventGrid resource is registered</h3>
