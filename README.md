@@ -11,4 +11,4 @@ Let's get your environment setup with a few <b><a href="prerequisites.md">Prereq
   <li><a href="EventGridAlert.md">Use Event Grid to Alert for IoT Hub Events</a>
 </h2>
 <p>
-<img src="./images/iot.jpg" width="50%" height="50%">
+&emsp;&emsp;<img src="./images/iot.jpg" width="50%" height="50%">
