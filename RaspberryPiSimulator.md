@@ -1,6 +1,6 @@
 <h1>Hands-On Lab</h1>
 
-<h2>Demonstrate the IoT Hub with a RaspberryPi Simulators</h2>
+<h2>Demonstrate the IoT Hub with an online RaspberryPi Simulator</h2>
 <table>
 <tr>
 <td width="25%" valign="top"><br>This exercise will use an online RaspberryPi simulator to send telemetry to an Azure IoT Hub.</td>
