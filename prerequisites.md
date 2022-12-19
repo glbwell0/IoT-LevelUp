@@ -13,9 +13,18 @@
 <li>Run the following command to create an IoT hub:<p>
   <pre><code class="lang-azurecli">az iot hub create --name <i>{your iot hub name}</i> --resource-group <i>{your resource group name}</i> --sku S1 
 </code></pre>
-<li>Now copy the connection string for your hub with the following command:<br>
-  &emsp;<sub>Paste the connection string for you to reference later</sub><p>
+<li>Copy the connection string for your hub with the following command:<br>
+  &emsp;<sub>Paste the connection string with the lable <b>IoT Hub Connection String</b></sub><p>
   <pre><code class="lang-azurecli">az iot hub connection-string show -n <i>{your iot hub name}</i> --policy-name iothubowner</code></pre>
+
+<li>Run the following commands to create an IoT Device:<p>
+  <pre><code class="lang-azurecli">
+az iot hub device-identity create -n <i>{your iot hub name}</i> -d RaspberryPi
+</code></pre>
+<li>Copy the connection string for your IoT Device with the following command:<br>
+  &emsp;<sub>Paste the connection string with the lable <b>IoT Device Connection String</b></sub><p>
+  <pre><code class="lang-azurecli">az iot hub device-identity connection-string show --hub-name <i>{your iot hub name}</i> --device-id RaspberryPi</code></pre>
+
 </ol>
 <br>
 <h3>Install the Azure IoT Explorer</h3>
