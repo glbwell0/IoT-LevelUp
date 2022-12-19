@@ -74,7 +74,30 @@
 <ol>
 <li>In the Azure portal, navigate to your IoT Hub and select the <b>Events</b> panel
 
-![IoTHubEventGrid](./images/IotHub-EventGrid.png)
+![IoTHubEventGrid](./images/IotHub-EventGridSubscription.png)
 
-
+<li>Click the <b>+ Event Subscription</b> button and enter the following values:
+<ul>
+  <li>In the <b>EVENT SUBSCRIPTION DETAILS</b> section:
+  <ul>
+    <li>Enter <b>IoT-Hub-Alerts</b> for the <b>Name</b>
+    <li>Select <b>Event Grid Schema</b> for </b>Event Schema</b>
+  </ul>
+  <li>In the <b>TOPIC DETAILS</b> section:
+  <ul>
+    <li>Confirm that the <b>Topic Type</b> is set to <b>IoT Hub</b>
+    <li>Confirm that your IoT Hub is set as the value for the <b>Source Resource</b> field
+    <li>Enter <b>IoTDevice-ConnectionStateChanged</b> for the <b>System Topic Name</b>
+  </ul>
+  <li>In the <b>EVENT TYPES</b> section:
+  <ul>
+    <li>Open the <b>Filter to Event Types</b> dropdown list and select only <b>Device Connected</b> and <b>Device Disconnected</b>
+  </ul>
+  <li>In the <b>ENDPOINT DETAILS</b> section:
+  <ul>
+    <li>Select <b>Endpoint Type</b> as <b>Web Hook</b>
+    
+    
+    
+  
 
