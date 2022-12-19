@@ -23,6 +23,13 @@
 
   <h3>Send Telemetry with the RaspberryPi Simulator</h3>
 <ol>
-  <li><b><i>Ctrl</b></i>-Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted">here</a> to launch the RaspberryPi Simulator
-  <li>Copy your <u>device</u> connection string into the code on line 15<br>
+  <li><b><i>Ctrl</b></i>-Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted">here</a> to launch the <b>RaspberryPi Simulator</b>
+  <li>Copy your <u>device</u> connection string into the code on line 15 between the single quotes<br>
 <img src="./images/RaspSimConnString.png">
+  <li>Click the <b>Run</b> link located just below the code window
+  <li>Return to the <b>Azure IoT Explorer</b> and watch the telemetry stream
+  <li>Stop monitoring the telemetry by clicking the <b>Stop</b> button at the top
+  <li>Return to the <b>RaspberryPi Simulator</b> and click the <b>Stop</b> link located just below the code window
+</ol>
+<p><p>
+  You can now return to the <a href="ReadMe.md">Mail Lab Screen</a>
