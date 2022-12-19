@@ -99,7 +99,7 @@
     <li>Click <b>Select an Endpoint</b>, paste the URL that you copied from your logic app, and confirm selection
   </ul>
   When you're done, the pane should look like the following example:
-  <img src="./images/CreateEventSubscription.png">
+  <img src="./images/CreateEventSubscription.png" style="border:1px solid black">
   <li>Click the <b>Create</b> button
 </li>
     
