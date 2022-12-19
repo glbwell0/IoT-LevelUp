@@ -12,8 +12,17 @@
 </tr>
 </table>
 <p>
+<h3>Load Azure IoT Explorer to Monitor for Telemetry</h3>
 <ol>
-  <li>Launch the Azure IoT Explorer you installed from the Pre
+  <li>Launch the Azure IoT Explorer you installed from the <b><a href="prerequisites.md">Prerequisites</a></b>
+  <li>Click the <b>RaspberryPi</b> device
+  <li>In panel on the left, select <b>Telemetry</b>
+  <li>Click the <b>Start</b> button at the top<br>
+    <sub>Note:  There will not be any telemetry appearing  ...yet.</sub>
+</ol>
+
+  <h3>Send Telemetry with the RaspberryPi Simulator</h3>
+<ol>
   <li><b><i>Ctrl</b></i>-Click <a href="https://azure-samples.github.io/raspberry-pi-web-simulator/#getstarted">here</a> to launch the RaspberryPi Simulator
-  <li>Copy your <u>device</u> connection string into the code on line 15
-    
+  <li>Copy your <u>device</u> connection string into the code on line 15<br>
+<img src="./images/RaspSimConnString.png">
