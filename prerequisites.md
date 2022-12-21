@@ -26,6 +26,14 @@ az iot hub device-identity create -n <i>{your iot hub name}</i> -d RaspberryPi
   <pre><code class="lang-azurecli">az iot hub device-identity connection-string show --hub-name <i>{your iot hub name}</i> --device-id RaspberryPi</code></pre>
 
 </ol>
+  <br>
+<h3>Install Visual Studio Code</h3>
+<ol>
+  <li><i>Ctrl</i>-Click <a href="https://code.visualstudio.com/Download">here</a> to navigate to the Visual Studio Code download page
+  <li>Select the blue button of the appropriate operating system (i.e. Windows)
+  <li>Open the downloaded setup file from your <b>Downloads</b> folder
+  <li>Walk through the setup wizard, selecting all the default options
+</ol>
 <br>
 <h3>Install the Azure IoT Explorer</h3>
 <ol>
