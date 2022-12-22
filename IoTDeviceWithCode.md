@@ -3,10 +3,10 @@
 <h2>Simulatate an IoT Device with C# Code</h2>
 <table>
 <tr>
-<td width="25%" valign="top"><br>This exercise will use an online RaspberryPi simulator to send telemetry to an Azure IoT Hub.</td>
+<td width="25%" valign="top"><br>During this exercise you will develop code to simulate a device communicating with your Azure IoT Hub.</td>
 <td>
 
-![EventGridDiagram](./images/RaspberryPiSimulator.png) 
+![EventGridDiagram](./images/IoT_Code.png) 
 
 </td>
 </tr>
