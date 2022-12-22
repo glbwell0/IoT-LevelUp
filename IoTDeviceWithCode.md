@@ -57,7 +57,7 @@ code .
     <sub><i>You should see telemetry data appearing</sub></i>
   <li>Click the <b>Stop</b> button at the top of the window
 </ol>
-<h3>Remotely control Your Device with its Device Twin</h3>
+<h3>Remotely Control Your Device with its Device Twin</h3>
 <ol>
   <li>In the <b>Azure IoT Explorer</b>, select <b>Device Twin</b> in the left pane
   <li>Under the <b>Properties</b> - <b>Desired</b> section, enter the following:
@@ -75,3 +75,4 @@ code .
   <li>Notice the <b>IntervalFrequency</b> and the <b>DateTimeLastDesiredPropertyChangeReceived</b> properties have been updated in the <b>Properties</b> - <b>Reported</b> section
     <p><img src="./images/ReportedProperties.png">
     </ol>
+<h3>Remotely Send a Command to the IoT Device</h3>
