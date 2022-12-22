@@ -64,4 +64,13 @@ code .
 <pre><code class="lang-azurecli" title="JSON">
 "IntervalFrequency": 5,
 </pre></code>
-    
+<img src="./images/DesiredProperties.png">
+  <li>Click the <b>Save</b> button
+  <li>Return to <b>Visual Studio Code</b> 
+  <li>The debugger should have stopped in the <b>OnDesiredPropertyChanged</b> function
+  <li>Walk the debugger by pressing <b>F5</b> for each line of code
+  <li>When you reach the end of the function (line 122), press <b>F5</b> to continue running the program
+  <li>Return the the <b>Azure IoT Explorer</b>
+  <li>On the <b>Device Twin</b> window, click the <b>Refresh</b> button at the top
+  <li>Notice the <b>IntervalFrequency</b> and the <b>DateTimeLastDesiredPropertyChangeReceived</b> properties have been updated in the <b>Properties</b> - <b>Reported</b> section
+    </ol>
