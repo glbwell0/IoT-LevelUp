@@ -24,7 +24,10 @@ git clone https://github.com/glbwell0/IoT-LevelUp-Code
 <pre><code class="lang-azurecli" title="JSON">
 cd\IoT-LevelUp-Code
 </pre></code>
-  <li>Add the Azure IoT Device SDK by entering the following 2 commands:
+</ol>
+<h3>Prepare the Code</h3>
+<ol>
+  <li>Add the <b>Azure IoT Device SDK</b> by entering the following 2 commands:
 <pre><code class="lang-azurecli" title="JSON">
 dotnet add . package Microsoft.Azure.Devices
 dotnet restore .
@@ -35,8 +38,30 @@ code .
 </pre></code>
   <li>Select <b>Program.cs</b> in the left panel
   <li>If you see a prompt stating <b>Required assets to build and debug are missing from 'IoT-LevelUp-Code'.  Add them?</b>, select <b>Yes</b>
-  <li>On line 28, paste your <u>Device</u> connection string
-  <li>Set a breakpoint on line 33 by clicking just to the left of the line number
-    <img src="
-    
+  <li>On line 28, paste your <u>Device</u> connection string and press <i>Ctrl</i>-S to save your update
+  <li>Set a breakpoint on line <b>33</b> by clicking just to the left of the line number
+<p><img src="./images/CodeBreakpoint.png">
+  <li>Set additional breakpoints for code lines <b>75</b>, <b>106</b> and <b>129</b>
+  <li>Press the <b>F5</b> key to start debugging the code
+  <li>Walk the code line by line by pressing <b>F10</b> to progress to the next line
+  <li>Remove the breakpoint on line <b>75</b> by clicking on the red dot
+  <li>Press <b>F5</b> to allow the code to continue running
+</ol>
+<h3>View the Incoming Telemetry from the IoT Device</h3>
+<ol>
+  <li>Launch the <b>Azure IoT Explorer</b> by searching for <b>iot</b>
+  <li>Select your IoT Hub
+  <li>Select your IoT Device from the list
+  <li>Select <b>Telemetry</b> from the left panel
+  <li>Click the <b>Start</b> button at the top of the window<br>
+    <sub><i>You should see telemetry data appearing</sub></i>
+  <li>Click the <b>Stop</b> button at the top of the window
+</ol>
+<h3>Remotely control Your Device with its Device Twin</h3>
+<ol>
+  <li>In the <b>Azure IoT Explorer</b>, select <b>Device Twin</b> in the left pane
+  <li>Under the <b>Properties</b> - <b>Desired</b> section, enter the following:
+<pre><code class="lang-azurecli" title="JSON">
+"IntervalFrequency": 5,
+</pre></code>
     
