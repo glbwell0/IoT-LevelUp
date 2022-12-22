@@ -73,4 +73,5 @@ code .
   <li>Return the the <b>Azure IoT Explorer</b>
   <li>On the <b>Device Twin</b> window, click the <b>Refresh</b> button at the top
   <li>Notice the <b>IntervalFrequency</b> and the <b>DateTimeLastDesiredPropertyChangeReceived</b> properties have been updated in the <b>Properties</b> - <b>Reported</b> section
+    <p><img src="./images/ReportedProperties.png">
     </ol>
