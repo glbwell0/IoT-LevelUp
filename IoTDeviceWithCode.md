@@ -68,7 +68,7 @@ code .
   <li>Click the <b>Save</b> button
   <li>Return to <b>Visual Studio Code</b> 
   <li>The debugger should have stopped in the <b>OnDesiredPropertyChanged</b> function
-  <li>Walk the debugger by pressing <b>F5</b> for each line of code
+  <li>Walk the debugger by pressing <b>F10</b> for each line of code
   <li>When you reach the end of the function (line 122), press <b>F5</b> to continue running the program
   <li>Return the the <b>Azure IoT Explorer</b>
   <li>On the <b>Device Twin</b> window, click the <b>Refresh</b> button at the top
@@ -76,3 +76,18 @@ code .
     <p><img src="./images/ReportedProperties.png">
     </ol>
 <h3>Remotely Send a Command to the IoT Device</h3>
+<ol>
+  <li>In the <b>Azure IoT Explorer</b>, select <b>Direct Method</b> in the left pane
+  <li>Just under <b>Method Name</b> enter <b>reset</b> in the text box -<i>note: it must be all lowercase</i>
+  <li>Click the <b>Invoke Method</b> link at the top of the window
+  <li>Return to <b>Visual Studio Code</b> 
+  <li>The debugger should have stopped in the <b>ResetMethod</b> function
+  <li>Walk the debugger by pressing <b>F10</b> for the next 2 lines of code
+  <li>When you reach the end of the function (line 131), remove the breakpoint and press <b>F5</b> to continue running the program
+  <li>Return the the <b>Azure IoT Explorer</b>
+  <li>You likely received an error stating the method call failed -this is because our code did not respond within 30 seconds
+  <li>Click the <b>Invoke Method</b> link at the top of the window again and note that it successfully completed
+<ol>
+<p>
+  </ol>
+    
