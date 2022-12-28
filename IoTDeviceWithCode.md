@@ -87,7 +87,7 @@ code .
   <li>Return the the <b>Azure IoT Explorer</b>
   <li>You likely received an error stating the method call failed -this is because our code did not respond within 30 seconds
   <li>Click the <b>Invoke Method</b> link at the top of the window again and note that it successfully completed
-<ol>
-<p>
-  </ol>
+</ol>
+<br><br>
+  You can now return to the <a href="README.md">Main Lab Screen</a>
     
