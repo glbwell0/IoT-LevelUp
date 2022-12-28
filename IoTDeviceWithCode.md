@@ -89,5 +89,5 @@ code .
   <li>Click the <b>Invoke Method</b> link at the top of the window again and note that it successfully completed
 </ol>
 <br><br>
-  You can now return to the <a href="README.md">Main Lab Screen</a>
+  You can now close <b>Azure IoT Explorer</b> & <b>Visual Studio Code</b> and return to the <a href="README.md">Main Lab Screen</a>
     
