@@ -4,7 +4,8 @@
 <ol>
 <li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com" target="_blank">https://shell.azure.com</a>
 <p>
-<li>Run the following script to create an IoT Hub with 1 device in a new resource group:<br>
+<li>Run the following script:
+<br><sub>This will take about 5 minutes to complete</sub>
 <pre><code class="lang-azurecli">
 # IoT LevelUp
 az extension update --name azure-iot
@@ -25,6 +26,7 @@ az iot hub connection-string show -n $iotHubName --policy-name iothubowner
 az iot hub device-identity connection-string show --hub-name $iotHubName --device-id RaspberryPi
 </pre></code>
   <li>Copy the <b>Resource Group Name</b>, <b>IoT Hub Connection String</b> and <b>IoT Device Connection String</b> for later reference
+    <img src="./images/IoTConnectionStrings.png"
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
@@ -41,14 +43,6 @@ az iot hub device-identity connection-string show --hub-name $iotHubName --devic
 <li>Launch the application if it does not automatically start
 <li>Click the <b>+ Add Connection</b> button
 <li>Paste your IoT Hub's connection string and click the <b>Save</b> button
-</ol>
-<br>
-<h3>Verify the Microsoft.EventGrid resource is registered</h3>
-<i>We'll need this when triggering events from your IoT Hub</i><p>
-<ol>
-<li>Run the following command to create an IoT hub:<p>
-<pre><code class="lang-azurecli">az provider register --namespace 'Microsoft.EventGrid'
-</code></pre>
 </ol>
 <p>
 That's all -You're ready to go!!!<p>
