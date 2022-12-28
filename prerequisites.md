@@ -4,27 +4,27 @@
 <ol>
 <li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com" target="_blank">https://shell.azure.com</a>
 <p>
-<li>Run the following command to create a new resource group:<br>
-&emsp;<sub>If the message <b><i>"The command requires the extension azure-iot."</i></b> is displayed, select <b>Yes</b> to install.</sub>
-<p>
-  <pre><code class="lang-azurecli">az group create --name <i>{your resource group name}</i> --location eastus
-</code></pre>
-  <p>
-<li>Run the following command to create an IoT hub:<p>
-  <pre><code class="lang-azurecli">az iot hub create --name <i>{your iot hub name}</i> --resource-group <i>{your resource group name}</i> --sku S1 
-</code></pre>
-<li>Copy the connection string for your hub with the following command:<br>
-  &emsp;<sub>Paste the connection string with the lable <b>IoT Hub Connection String</b></sub><p>
-  <pre><code class="lang-azurecli">az iot hub connection-string show -n <i>{your iot hub name}</i> --policy-name iothubowner</code></pre>
+<li>Run the following script to create an IoT Hub with 1 device in a new resource group:<br>
+<pre><code class="lang-azurecli">
+# IoT LevelUp
+az extension update --name azure-iot
+az provider register --namespace 'Microsoft.EventGrid'
 
-<li>Run the following commands to create an IoT Device:<p>
-  <pre><code class="lang-azurecli">
-az iot hub device-identity create -n <i>{your iot hub name}</i> -d RaspberryPi
-</code></pre>
-<li>Copy the connection string for your IoT Device with the following command:<br>
-  &emsp;<sub>Paste the connection string with the lable <b>IoT Device Connection String</b></sub><p>
-  <pre><code class="lang-azurecli">az iot hub device-identity connection-string show --hub-name <i>{your iot hub name}</i> --device-id RaspberryPi</code></pre>
+let "randomIdentifier=$RANDOM*$RANDOM"
+location="East US"
+resourceGroup="LevelUp-$randomIdentifier"
+iotHubName="LevelUp-$randomIdentifier"
+deviceID="RaspberryPi"
 
+az group create --name $resourceGroup --location "$location"
+az iot hub create --name $iotHubName --resource-group $resourceGroup --sku S1 
+az iot hub device-identity create -n $iotHubName -d RaspberryPi
+
+echo "Resource Group Name: $resourceGroup"
+az iot hub connection-string show -n $iotHubName --policy-name iothubowner
+az iot hub device-identity connection-string show --hub-name $iotHubName --device-id RaspberryPi
+</pre></code>
+  <li>Copy the <b>Resource Group Name</b>, <b>IoT Hub Connection String</b> and <b>IoT Device Connection String</b> for later reference
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
