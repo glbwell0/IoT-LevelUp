@@ -101,7 +101,13 @@ code .
   <li>Note the code has stopped on line <b>149</b> in the <b>OnDesiredPropertyChanged</b> function
   <li>Walk the code by pressing <b>F10</b> for each line until you reach the end of the function at line <b>167</b>
   <li>Press <b>F5</b> to continue running the code
-  <li>Return to the <b>Azure IoT Explorer</b> a
-    select the <b>Telemetry</b> panel
-  <
+  <li>Return to the <b>Azure IoT Explorer</b>
+  <li>Click the <b>Refresh</b> button at the top of the <b>Device Twin</b> window
+  <li>Note that the <b>IntervalFrequency</b> under the <b>ReportedProperties</b> has updated to <b>1</b>
+  <li>Switch to the <b>Telemetry</b> window & press the <b>Start</b> button if it's not already running
+  <li>Note the telemetry is now streaming at a rate of about once a second
+  <li>Select the <b>Direct Method</b> panel on the left
+  <li>Type <b>reset</b> in the textbox under <b>Method name</b> <i>(must be all lowercase)</i>
+  <li>Click the <b>Invoke Method</b> located at the top of the window
+  <li>Return to <b>Visual Studio Code</b> and note the debugger stopped in the <b>ResetMethod</b> function
    
