@@ -16,7 +16,6 @@ location="East US"
 resourceGroup="IoT-LevelUp-$randomIdentifier"
 dpsName="IoT-LevelUp-DPS-$randomIdentifier"
 iotHubName="IoT-LevelUp-Hub-$randomIdentifier"
-deviceID="RaspberryPi"
 
 az group create --name $resourceGroup --location "$location"
 
@@ -25,11 +24,8 @@ az iot hub create --name $iotHubName --resource-group $resourceGroup --sku S1
 az iot hub device-identity create -n $iotHubName -d RaspberryPi
 
 echo "Resource Group Name: $resourceGroup"
-az iot hub connection-string show -n $iotHubName --policy-name iothubowner
-az iot hub device-identity connection-string show --hub-name $iotHubName --device-id RaspberryPi
 </pre></code>
-  <li>Copy the <b>Resource Group Name</b>, <b>IoT Hub Connection String</b> and <b>IoT Device Connection String</b> for later reference
-    <img src="./images/IoTConnectionStrings.png"
+  <li>Note the <b>Resource Group Name</b> for later reference
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
