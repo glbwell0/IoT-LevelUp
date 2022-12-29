@@ -24,11 +24,10 @@ namespace SimulatedDevice
     internal class Program
     {
         static string dps_GlobalDeviceEndpoint = "global.azure-devices-provisioning.net";
-    //    static string dps_IdScope = "<Enter the Scope ID from DPS>";
-    static string dps_IdScope = "0ne008DF95B";
+        static string dps_IdScope = "<Enter the Scope ID from DPS>";
         static string dps_RegistrationID = "SimulatedDeviceRegistration";
-    //    static string dps_PrimaryKey = "<Enter the Primary Key from the Device Enrollment>";
-    static string dps_PrimaryKey = "hjnwjEm06DNd6h4qFuBwH6TJna6sExRFs8PTqU8NnSxsvHXDpqOFKcjvlHk2GIH8G6hPkQm9lBumhQvUeGTXRg==";
+        static string dps_PrimaryKey = "<Enter the Primary Key from the Device Enrollment>";
+    
         static string deviceConnectionString = "";
 
         static int _intervalFrequency = 3;
