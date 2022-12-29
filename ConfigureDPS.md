@@ -48,11 +48,10 @@
 <p>
 <h3>Prepare Code for an IoT Device</h3>
 <ol>
-<ol>
   <li>Open a command prompt by searching for <b>cmd</b>
-  <li>Navigate to your root directory by typing <b>cd\</b>
   <li>Enter the following the download the sample code:
 <pre><code class="lang-azurecli">
+cd\
 git clone https://github.com/glbwell0/IoT-LevelUp-Code
 cd\IoT-LevelUp-Code
 </pre></code>
@@ -73,14 +72,15 @@ dotnet restore .
 code .
 </pre></code>
   <li>Select the <b>Program.cs</b> file in the Explorer panel on the left
+  <li>Visual Studio Code will 
   <li>Enter the <b>Scope ID</b> in line 28 between the double quotes
   <li>Enter the <b>Primary Key</b> in line 30 between the double quotes
   <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
-  <li>Set a <b>Breakpoint</b> on line <b>74</b> by clicking just to the left of the line number
+  <li>Set a <b>Breakpoint</b> on line <b>73</b> by clicking just to the left of the line number
  <img src="./images/CodeBreakpoint.png">
-  <li>Set breakpoints on code lines <b>114</b>, <b>149</b> and <b>174</b>
+  <li>Set breakpoints on code lines <b>120</b>, <b>157</b> and <b>180</b>
 </ol>
 <h3>Run the Code</h3>
 <ol>
-  <li>Press <b>F5</b> to start the simulator
+  <li>Press <b>F5</b> to start debugging the simulator
   <li>
