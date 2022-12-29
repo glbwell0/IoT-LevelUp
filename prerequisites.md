@@ -14,10 +14,13 @@ az provider register --namespace 'Microsoft.EventGrid'
 let "randomIdentifier=$RANDOM*$RANDOM"
 location="East US"
 resourceGroup="IoT-LevelUp-$randomIdentifier"
-iotHubName="IoT-LevelUp-$randomIdentifier"
+dpsName="IoT-LevelUp-DPS-$randomIdentifier"
+iotHubName="IoT-LevelUp-Hub-$randomIdentifier"
 deviceID="RaspberryPi"
 
 az group create --name $resourceGroup --location "$location"
+
+az iot dps create --name $dpsName --resource-group $resourceGroup
 az iot hub create --name $iotHubName --resource-group $resourceGroup --sku S1 
 az iot hub device-identity create -n $iotHubName -d RaspberryPi
 
