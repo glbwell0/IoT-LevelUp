@@ -49,36 +49,25 @@
 <h3>Prepare Code for an IoT Device</h3>
 <ol>
   <li>Open a command prompt by searching for <b>cmd</b>
-  <li>Enter the following the download the sample code:
+  <li>Enter the following the download the sample code & launch Visual Studio Code:
 <pre><code class="lang-azurecli">
 cd\
 git clone https://github.com/glbwell0/IoT-LevelUp-Code
 cd\IoT-LevelUp-Code
+dotnet restore .
+code .
 </pre></code>
 </ol>
 <h3>Prepare the Code</h3>
 <ol>
-  <li>Add the <b>Azure IoT Device SDK</b> by entering the following commands:
-<pre><code class="lang-azurecli" title="JSON">
-dotnet add . package Microsoft.Azure.Devices
-dotnet add . package Microsoft.Azure.Devices.Client
-dotnet add . package Microsoft.Azure.Devices.Provisioning.Client
-dotnet add . package Microsoft.Azure.Devices.Provisioning.Transport.Mqtt
-dotnet restore .
-
-</pre></code>
-  <li>Edit the Code from Visual Studio Code by entering the following:
-<pre><code class="lang-azurecli" title="JSON">
-code .
-</pre></code>
   <li>Select the <b>Program.cs</b> file in the Explorer panel on the left
-  <li>Visual Studio Code will 
-  <li>Enter the <b>Scope ID</b> in line 28 between the double quotes
-  <li>Enter the <b>Primary Key</b> in line 30 between the double quotes
+  <li>If Visual Studio Code asks to add required assets, click <b>Yes</b>
+  <li>Enter the <b>Scope ID</b> in line 27 between the double quotes
+  <li>Enter the <b>Primary Key</b> in line 29 between the double quotes
   <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
   <li>Set a <b>Breakpoint</b> on line <b>73</b> by clicking just to the left of the line number
  <img src="./images/CodeBreakpoint.png">
-  <li>Set breakpoints on code lines <b>120</b>, <b>157</b> and <b>180</b>
+  <li>Set breakpoints on code lines <b>113</b>, <b>148</b> and <b>173</b>
 </ol>
 <h3>Run the Code</h3>
 <ol>
