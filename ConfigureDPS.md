@@ -66,8 +66,21 @@ dotnet add . package Microsoft.Azure.Devices.Client
 dotnet add . package Microsoft.Azure.Devices.Provisioning.Client
 dotnet add . package Microsoft.Azure.Devices.Provisioning.Transport.Mqtt
 dotnet restore .
+
 </pre></code>
-  <li>Launch Visual Studio Code by entering the following:
+  <li>Edit the Code from Visual Studio Code by entering the following:
 <pre><code class="lang-azurecli" title="JSON">
 code .
 </pre></code>
+  <li>Select the <b>Program.cs</b> file in the Explorer panel on the left
+  <li>Enter the <b>Scope ID</b> in line 28 between the double quotes
+  <li>Enter the <b>Primary Key</b> in line 30 between the double quotes
+  <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
+  <li>Set a <b>Breakpoint</b> on line <b>74</b> by clicking just to the left of the line number
+ <img src="./images/CodeBreakpoint.png">
+  <li>Set breakpoints on code lines <b>114</b>, <b>149</b> and <b>174</b>
+</ol>
+<h3>Run the Code</h3>
+<ol>
+  <li>Press <b>F5</b> to start the simulator
+  <li>
