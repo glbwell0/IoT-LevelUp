@@ -54,15 +54,12 @@
   <li>Enter the following the download the sample code:
 <pre><code class="lang-azurecli">
 git clone https://github.com/glbwell0/IoT-LevelUp-Code
-</pre></code>
-  <li>Change to the working directory by entering the following:
-<pre><code class="lang-azurecli">
 cd\IoT-LevelUp-Code
 </pre></code>
 </ol>
 <h3>Prepare the Code</h3>
 <ol>
-  <li>Add the <b>Azure IoT Device SDK</b> by entering the following 2 commands:
+  <li>Add the <b>Azure IoT Device SDK</b> by entering the following commands:
 <pre><code class="lang-azurecli" title="JSON">
 dotnet add . package Microsoft.Azure.Devices
 dotnet add . package Microsoft.Azure.Devices.Client
