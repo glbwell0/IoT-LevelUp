@@ -39,7 +39,7 @@
   <li>Click the <b>Save</b> button at the top of the window
 </ol>
 <p>
-<h3>Get Primary Key from the Device's Enrollment</h3>
+<h3>Get the Primary Key for the Device Enrollment</h3>
 <ol>
   <li>Select the <b>Individual Enrollments</b> tab towards the top of the panel
   <li>Select the <b>SimulatedDeviceRegistration</b> registration
