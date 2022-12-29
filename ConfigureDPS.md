@@ -48,7 +48,7 @@
 <p>
 <h3>Prepare Code for an IoT Device</h3>
 <ol>
-  <li>Open a command prompt by searching for <b>cmd</b>
+  <li>Open a command prompt by searching for <b>cmd</b> from the Windows Search or Start menu
   <li>Enter the following the download the sample code & launch Visual Studio Code:
 <pre><code class="lang-azurecli">
 cd\
@@ -67,9 +67,41 @@ code .
   <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
   <li>Set a <b>Breakpoint</b> on line <b>73</b> by clicking just to the left of the line number
  <img src="./images/CodeBreakpoint.png">
-  <li>Set breakpoints on code lines <b>113</b>, <b>148</b> and <b>173</b>
+  <li>Set additional breakpoints on code lines <b>149</b> and <b>174</b>
 </ol>
 <h3>Run the Code</h3>
 <ol>
   <li>Press <b>F5</b> to start debugging the simulator
-  <li>
+  <li>The code will stop for observation at the start os the <b>ProvisionIoTDevice</b> function
+  <li>Walk the code line-by-line by pressing <b>F10</b> until line 102, pause here
+  <li>Select the <b>DEBUG CONSOLE</b> at the bottom of the window
+    <sub>If it is not visible, press <i>Ctrl</i>-<i>Shift</i>-<b>Y</b> to toggle it on/off</sub>
+  <li>Copy the Connection String from the Debug Console and save for later reference
+  <li>Press <b>F5</b> to continue running the application
+  <li>Return to the Azure portal and locate the hub with a name starting with <b>IoT-LevelUp-Hub</b>
+  <li>Select <b>Devices</b> in the left panel and the new device should be listed
+    <br><sub>If not, click the <b>Refresh</b> button at the top of the window</sub><br>
+ </ol>
+ <h3>Monitor the Incoming Telemetry from the Device</h3>
+ <ol>
+  <li>Launch the <b>Azure IoT Explorer</b> <i>(you can search for <b>iot</b> in Windows Search to quickly find it)</i>
+  <li>Select the IoT Hub that starts with <b>IoT-LevelUp-Hub</b>
+  <li>Select <b>Simulated Device</b> from the device list
+  <li>Select the <b>Telemetry</b> panel on the left
+  <li>Click the <b>Start</b> button at the top of the window
+  <li>Within about 10 seconds, you should see telemetry flowing about every 5 seconds
+ </ol>
+ <h3>Manage the Device from the Cloud</h3>
+ <ol>
+  <li>From the Azure IoT Explorer, select the <b>Device Twin</b> panel on the left
+  <li>Locate the <b>IntervalFrequency</b> setting under <b>Properties</b>-<b>Desired</b>
+  <li>Change the setting from <b>5</b> to <b>1</b>
+  <li>Click <b>Save</b> at the top of the window
+  <li>Return to <b>Visual Studio Code</b>
+  <li>Note the code has stopped on line <b>149</b> in the <b>OnDesiredPropertyChanged</b> function
+  <li>Walk the code by pressing <b>F10</b> for each line until you reach the end of the function at line <b>167</b>
+  <li>Press <b>F5</b> to continue running the code
+  <li>Return to the <b>Azure IoT Explorer</b> a
+    select the <b>Telemetry</b> panel
+  <
+   
