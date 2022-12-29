@@ -46,7 +46,7 @@
   <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference
 </ol>
 <p>
-<h3>Prepare Code for an IoT Device<b>
+<h3>Prepare Code for an IoT Device</h3>
 <ol>
 <ol>
   <li>Open a command prompt by searching for <b>cmd</b>
