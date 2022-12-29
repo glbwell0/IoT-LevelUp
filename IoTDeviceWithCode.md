@@ -17,11 +17,11 @@
   <li>Open a command prompt by searching for <b>cmd</b>
   <li>Navigate to your root directory by typing <b>cd\</b>
   <li>Enter the following the download the sample code:
-<pre><code class="lang-azurecli" title="JSON">
+<pre><code class="lang-azurecli">
 git clone https://github.com/glbwell0/IoT-LevelUp-Code
 </pre></code>
   <li>Change to the working directory by entering the following:
-<pre><code class="lang-azurecli" title="JSON">
+<pre><code class="lang-azurecli">
 cd\IoT-LevelUp-Code
 </pre></code>
 </ol>
