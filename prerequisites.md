@@ -21,9 +21,10 @@ az group create --name $resourceGroup --location "$location"
 
 az iot dps create --name $dpsName --resource-group $resourceGroup
 az iot hub create --name $iotHubName --resource-group $resourceGroup --sku S1 
-az iot hub device-identity create -n $iotHubName -d RaspberryPi
+CONNECTIONSTRING=$(az iot hub connection-string show -n IoT-LevelUp-Hub-465436428 --policy-name iothubowner --key-type primary --query "connectionString")
 
 echo "Resource Group Name: $resourceGroup"
+echo "IoT Hub Connection String: $CONNECTIONSTRING"
 </pre></code>
   <li>Note the <b>Resource Group Name</b> for later reference
 </ol>
