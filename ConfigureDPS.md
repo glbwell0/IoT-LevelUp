@@ -67,13 +67,13 @@ code .
   <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
   <li>Set a <b>Breakpoint</b> on line <b>73</b> by clicking just to the left of the line number
  <img src="./images/CodeBreakpoint.png">
-  <li>Set additional breakpoints on code lines <b>150</b> and <b>173</b>
+  <li>Set additional breakpoints on code lines <b>151</b> and <b>174</b>
 </ol>
 <h3>Run the Code</h3>
 <ol>
   <li>Press <b>F5</b> to start debugging the simulator
   <li>The code will stop for observation at the start os the <b>ProvisionIoTDevice</b> function
-  <li>Walk the code line-by-line by pressing <b>F10</b> until line 102, pause here
+  <li>Walk the code line-by-line by pressing <b>F10</b> until line 100, pause here
   <li>Select the <b>DEBUG CONSOLE</b> at the bottom of the window
     <sub>If it is not visible, press <i>Ctrl</i>-<i>Shift</i>-<b>Y</b> to toggle it on/off</sub>
   <li>Copy the Connection String from the Debug Console and save for later reference
