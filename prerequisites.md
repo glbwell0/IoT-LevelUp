@@ -46,6 +46,7 @@ echo "IoT Hub Connection String: $CONNECTIONSTRING"
 <li>Launch the application if it does not automatically start
 <li>Click the <b>+ Add Connection</b> button
 <li>Paste your <b>IoT Hub's Connection String</b> and click the <b>Save</b> button
+<li>Note that there are no deviced listed
 </ol>
 <p>
 That's all -You're ready to go!!!<p>
