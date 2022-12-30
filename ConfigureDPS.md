@@ -17,7 +17,6 @@
   <li>Open the Azure portal by navigating to <a href="https://portal.azure.com">https://portal.azure.com</a>
   <li>Locate the <b>Resource Group</b> that was created in the <b><a href="prerequisites.md">Prerequisites</a></b>
   <li>Open the <b>Device Provisioning Service (DPS)</b> with the name that starts <b>IoT-LevelUp-DPS</b>
-  <li>From the Overview panel, copy the <b>ID Scope</b> for later reference
   <li>Select the <b>Linked IoT Hubs</b> in the left panel and note that there are no associated IoT Hubs
   <li>Click the <b>+Add</b> at the top of the window
   <li>In the <b>IoT Hub</b> dropdown list, select the hub with the name that starts <b>IoT-LevelUp-Hub</b>
