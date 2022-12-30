@@ -116,5 +116,6 @@ code .
 <sub>This is because we paused the code and the device did not acknowledge the call within 30 seconds</sub>
   <li>Click the <b>Invoke Method</b> located at the top of the window again & note you receive a successful response
 </ol>
-  
+<h3> Next Lab</h3>
+Next Lab: <a href="RaspberryPiSimulator.md">Demonstrate the IoT Hub with an Online RaspberryPi Simulator</a>
    
