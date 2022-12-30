@@ -99,6 +99,7 @@ code .
   <li>Return to <b>Visual Studio Code</b>
   <li>Note the code has stopped in the <b>OnDesiredPropertyChanged</b> function
   <li>Walk the code by pressing <b>F10</b> for each line until you reach the end of the function at line <b>167</b>
+  <li>Remove the breakpoint from line <b>151</b> by clicking the red dot to the left of the line number
   <li>Press <b>F5</b> to continue running the code
   <li>Return to the <b>Azure IoT Explorer</b>
   <li>Click the <b>Refresh</b> button at the top of the <b>Device Twin</b> window
@@ -109,4 +110,12 @@ code .
   <li>Type <b>reset</b> in the textbox under <b>Method name</b> <i>(must be all lowercase)</i>
   <li>Click the <b>Invoke Method</b> located at the top of the window
   <li>Return to <b>Visual Studio Code</b> and note the debugger stopped in the <b>ResetMethod</b> function
+  <li>Remove the breakpoint by clicking the red dot next to the line number
+  <li>Press <b>F5</b> to continue running the code
+  <li>Return to the <b>Azure IoT Explorer</b>
+  <li>Note there is an error indicating that the direct method failed<br>
+<sub>This is because we paused the code and the device did not acknowledge the call within 30 seconds</sub>
+  <li>Click the <b>Invoke Method</b> located at the top of the window again & note you receive a successful response
+</ol>
+  
    
