@@ -26,7 +26,7 @@ CONNECTIONSTRING=$(az iot hub connection-string show -n IoT-LevelUp-Hub-46543642
 echo "Resource Group Name: $resourceGroup"
 echo "IoT Hub Connection String: $CONNECTIONSTRING"
 </pre></code>
-  <li>Note the <b>Resource Group Name</b> for later reference
+  <li>Copy the <b>Resource Group Name</b> and <b>IoT Hub Connection String</b> for later reference
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
