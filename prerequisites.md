@@ -29,7 +29,7 @@ echo "Resource Group Name: $resourceGroup"
 echo "DPS Scope ID: $SCOPEID"
 echo "IoT Hub Connection String: $CONNECTIONSTRING"
 </pre></code>
-  <li>Copy the <b>Resource Group Name</b> and <b>IoT Hub Connection String</b> for later reference
+  <li>Copy the last 3 lines that include the <b>Resource Group Name</b>, <b>DPS Scope ID</b>, and <b>IoT Hub Connection String</b> for later reference
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
