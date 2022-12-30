@@ -20,10 +20,13 @@ iotHubName="IoT-LevelUp-Hub-$randomIdentifier"
 az group create --name $resourceGroup --location "$location"
 
 az iot dps create --name $dpsName --resource-group $resourceGroup
+SCOPEID = $(az iot dps show --name $dpsName --query "properties.idScope")
+
 az iot hub create --name $iotHubName --resource-group $resourceGroup --sku S1 
 CONNECTIONSTRING=$(az iot hub connection-string show -n $iotHubName --policy-name iothubowner --key-type primary --query "connectionString")
 
 echo "Resource Group Name: $resourceGroup"
+echo "DPS Scope ID: $SCOPEID"
 echo "IoT Hub Connection String: $CONNECTIONSTRING"
 </pre></code>
   <li>Copy the <b>Resource Group Name</b> and <b>IoT Hub Connection String</b> for later reference
