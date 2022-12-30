@@ -42,7 +42,7 @@
 <ol>
   <li>Select the <b>Individual Enrollments</b> tab towards the top of the panel
   <li>Select the <b>SimulatedDeviceRegistration</b> registration
-  <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference
+  <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference, titled <b>Device Primary Key</b>
 </ol>
 <p>
 <h3>Prepare Code for an IoT Device</h3>
