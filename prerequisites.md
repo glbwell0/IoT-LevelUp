@@ -42,7 +42,7 @@ echo "IoT Hub Connection String: $CONNECTIONSTRING"
 <li>Click <a href="https://github.com/Azure/azure-iot-explorer/releases/download/v0.15.4/Azure.IoT.Explorer.Preview.0.15.4.msi">here</a> to download and install.
 <li>Launch the application if it does not automatically start
 <li>Click the <b>+ Add Connection</b> button
-<li>Paste your IoT Hub's connection string and click the <b>Save</b> button
+<li>Paste your <b>IoT Hub's Connection String</b> and click the <b>Save</b> button
 </ol>
 <p>
 That's all -You're ready to go!!!<p>
