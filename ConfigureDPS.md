@@ -16,11 +16,11 @@
 <ol>
   <li>Open the Azure portal by navigating to <a href="https://portal.azure.com">https://portal.azure.com</a>
   <li>Locate the <b>Resource Group</b> that was created in the <b><a href="prerequisites.md">Prerequisites</a></b>
-  <li>Open the device provisioning service with the name that starts <b>IoT-LevelUp-DPS</b>
+  <li>Open the <b>Device Provisioning Service (DPS)</b> with the name that starts <b>IoT-LevelUp-DPS</b>
   <li>From the Overview panel, copy the <b>ID Scope</b> for later reference
   <li>Select the <b>Linked IoT Hubs</b> in the left panel and note that there are no associated IoT Hubs
   <li>Click the <b>+Add</b> at the top of the window
-  <li>Select the IoT Hub with the name that starts <b>IoT-LevelUp-Hub</b>
+  <li>In the <b>IoT Hub</b> dropdown list, select the hub with the name that starts <b>IoT-LevelUp-Hub</b>
   <li>Click the <b>Save</b> button at the bottom of the panel
   <li>Select the <b>Manage Enrollments</b> in the left panel
   <li>Click the <b>+Add Individual Enrollment</b> at the top of the window
@@ -61,13 +61,13 @@ code .
 <h3>Prepare the Code</h3>
 <ol>
   <li>Select the <b>Program.cs</b> file in the Explorer panel on the left
-  <li>If Visual Studio Code asks to add required assets, click <b>Yes</b>
   <li>Enter the <b>Scope ID</b> in line 27 between the double quotes
   <li>Enter the <b>Primary Key</b> in line 29 between the double quotes
+  <li>If Visual Studio Code asks to add required assets, click <b>Yes</b>
   <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
   <li>Set a <b>Breakpoint</b> on line <b>73</b> by clicking just to the left of the line number
  <img src="./images/CodeBreakpoint.png">
-  <li>Set additional breakpoints on code lines <b>149</b> and <b>174</b>
+  <li>Set additional breakpoints on code lines <b>150</b> and <b>173</b>
 </ol>
 <h3>Run the Code</h3>
 <ol>
@@ -98,7 +98,7 @@ code .
   <li>Change the setting from <b>5</b> to <b>1</b>
   <li>Click <b>Save</b> at the top of the window
   <li>Return to <b>Visual Studio Code</b>
-  <li>Note the code has stopped on line <b>149</b> in the <b>OnDesiredPropertyChanged</b> function
+  <li>Note the code has stopped in the <b>OnDesiredPropertyChanged</b> function
   <li>Walk the code by pressing <b>F10</b> for each line until you reach the end of the function at line <b>167</b>
   <li>Press <b>F5</b> to continue running the code
   <li>Return to the <b>Azure IoT Explorer</b>
