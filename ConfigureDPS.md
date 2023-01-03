@@ -74,7 +74,7 @@ code .
   <li>The code will stop for observation at the start os the <b>ProvisionIoTDevice</b> function
   <li>Walk the code line-by-line by pressing <b>F10</b> until line <b>102</b>, pause here
   <li>Select the <b>DEBUG CONSOLE</b> at the bottom of the window <i>(If the Debug Console is not visible, press <i>Ctrl</i>-<i>Shift</i>-<b>Y</b> to toggle it on/off)</i>
-  <li>Copy the Connection String from the Debug Console and save for later reference
+  <li>Copy the Connection String from the Debug Console and save for later reference & title <b>Device Connection String</b>
   <li>Press <b>F5</b> to continue running the application
   <li>Return to the Azure portal and locate the hub with a name starting with <b>IoT-LevelUp-Hub</b>
   <li>Select <b>Devices</b> in the left panel and the new device should be listed
