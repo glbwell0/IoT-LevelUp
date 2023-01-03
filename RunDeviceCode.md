@@ -54,11 +54,12 @@ code .
   <li>Click the <b>Start</b> button at the top of the window
   <li>Within about 10 seconds, you should see telemetry flowing about every 5 seconds
  </ol>
- <h3>Manage the Device from the Cloud</h3>
+ <h3>Remotely Control Your Device with its Device Twin</h3>
  <ol>
   <li>From the Azure IoT Explorer, select the <b>Device Twin</b> panel on the left
   <li>Locate the <b>IntervalFrequency</b> setting under <b>Properties</b>-<b>Desired</b>
-  <li>Change the setting from <b>5</b> to <b>1</b>
+  <li>Change the setting from <b>5</b> to <b>2</b><br>
+    <img src="./images/DeviceTwinFrequency.png">
   <li>Click <b>Save</b> at the top of the window
   <li>Return to <b>Visual Studio Code</b>
   <li>Note the code has stopped in the <b>OnDesiredPropertyChanged</b> function
@@ -67,9 +68,12 @@ code .
   <li>Press <b>F5</b> to continue running the code
   <li>Return to the <b>Azure IoT Explorer</b>
   <li>Click the <b>Refresh</b> button at the top of the <b>Device Twin</b> window
-  <li>Note that the <b>IntervalFrequency</b> under the <b>ReportedProperties</b> has updated to <b>1</b>
+  <li>Note that the <b>IntervalFrequency</b> under the <b>ReportedProperties</b> has updated to <b>2</b>
   <li>Switch to the <b>Telemetry</b> window & press the <b>Start</b> button if it's not already running
-  <li>Note the telemetry is now streaming at a rate of about once a second
+  <li>Note the telemetry is now streaming data every 2 seconds
+</ol>
+<h3>Remotely Control Your Device with its Device Twin</h3>
+<ol>
   <li>Select the <b>Direct Method</b> panel on the left
   <li>Type <b>reset</b> in the textbox under <b>Method name</b> <i>(must be all lowercase)</i>
   <li>Click the <b>Invoke Method</b> located at the top of the window
@@ -83,5 +87,5 @@ code .
   <li>Return to <b>Visual Studio Code</b> and stop the devices application by clicking the <b>Stop</b> button at the top of the window
     <img src="./images/VisualStudio-Stop.png">
 </ol>
-<h3> Next Lab</h3>
-Next Lab: <a href="RaspberryPiSimulator.md">Demonstrate the IoT Hub with an Online RaspberryPi Simulator</a>
+<h3>Next Lab</h3>
+Next Lab: <a href="EventGridAlert.md.md">Use Event Grid to Alert for IoT Hub Events</a>
