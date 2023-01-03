@@ -115,6 +115,8 @@ code .
   <li>Note there is an error indicating that the direct method failed<br>
 <sub>This is because we paused the code and the device did not acknowledge the call within 30 seconds</sub>
   <li>Click the <b>Invoke Method</b> located at the top of the window again & note you receive a successful response
+  <li>Return to <b>Visual Studio Code</b> and stop the devices application by clicking the <b>Stop</b> button at the top of the window
+    <img src="./images/VisualStudio-Stop.png">
 </ol>
 <h3> Next Lab</h3>
 Next Lab: <a href="RaspberryPiSimulator.md">Demonstrate the IoT Hub with an Online RaspberryPi Simulator</a>
