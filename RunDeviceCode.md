@@ -93,4 +93,4 @@ code .
     <img src="./images/VisualStudio-Stop.png">
 </ol>
 <h3>Next Lab</h3>
-Next Lab: <a href="EventGridAlert.md">Use Event Grid to Alert for IoT Hub Events</a>
+Next Lab: <a href="RaspberryPiSimulator.md">Simulate an IoT Device with the Online RaspberryPi Simulators</a>
