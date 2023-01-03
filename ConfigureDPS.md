@@ -45,5 +45,5 @@
   <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference, titled <b>DPS Primary Key</b>
 </ol>
 <h3> Next Lab</h3>
-Next Lab: <a href="RaspberryPiSimulator.md">Demonstrate the IoT Hub with an Online RaspberryPi Simulator</a>
+Next Lab: <a href="RunDeviceCode.md">Simulate an IoT Device with C# Code</a>
    
