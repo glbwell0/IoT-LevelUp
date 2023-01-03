@@ -35,5 +35,5 @@
   <li>Stop monitoring the telemetry by clicking the <b>Stop</b> button at the top
   <li>Return to the <b>RaspberryPi Simulator</b> and click the <b>Stop</b> link located just below the code window
 </ol>
-<br><br>
-  You can now return to the <a href="README.md">Main Lab Screen</a>
+<h3>Next Lab</h3>
+Next Lab: <a href="EventGridAlert.md">Use Event Grid to Alert for IoT Hub Events</a>
