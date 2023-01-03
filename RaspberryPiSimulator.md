@@ -3,7 +3,7 @@
 <h2>Demonstrate the IoT Hub with an online RaspberryPi Simulator</h2>
 <table>
 <tr>
-<td width="25%" valign="top"><br>This exercise will use an online RaspberryPi simulator to send telemetry to an Azure IoT Hub.</td>
+<td width="25%" valign="top"><br>This exercise will use an online RaspberryPi simulator to send telemetry to an Azure IoT Hub.  This is a faster and simplier approach to demonstrate our IoT platform.</td>
 <td>
 
 ![EventGridDiagram](./images/RaspberryPiSimulator.png) 
