@@ -20,6 +20,7 @@
     <li>Click the device titled <b>SimulatedDevice</b>
   </ul>
   <li>In panel on the left, select <b>Telemetry</b>
+  <li>Click the <b>Clear Events</b> button at the top of the window
   <li>Click the <b>Start</b> button at the top<br>
     <sub>Note:  There will not be any telemetry appearing  ...yet.</sub>
 </ol>
