@@ -6,7 +6,7 @@
 <td width="25%" valign="top"><br>This exercise will demonstrate a sample of code to manage a device and send device-to-cloud telemetry</td>
 <td>
 
-![EventGridDiagram](./images/DPS.png) 
+![EventGridDiagram](./images/DeviceCode.png) 
 
 </td>
 </tr>
