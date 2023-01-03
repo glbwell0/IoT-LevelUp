@@ -47,8 +47,12 @@ code .
  </ol>
  <h3>Monitor the Incoming Telemetry from the Device</h3>
  <ol>
-  <li>Launch the <b>Azure IoT Explorer</b> <i>(you can search for <b>iot</b> in Windows Search to quickly find it)</i>
-  <li>Select the IoT Hub that starts with <b>IoT-LevelUp-Hub</b>
+  <li>If the <b>Azure IoT Explorer</b> if it's not already running -
+    <ul>
+      <li>Search for <b>iot</b> in Windows Search to quickly find the application
+      <li>Click <b>Azure IoT Explorer</b> to launch the program
+      <li>Select the hub with a title starting with <b>IoT-LevelUp-Hub</b>
+    </ul>
   <li>Select <b>Simulated Device</b> from the device list
   <li>Select the <b>Telemetry</b> panel on the left
   <li>Click the <b>Start</b> button at the top of the window
