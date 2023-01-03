@@ -1,6 +1,6 @@
 <h1>Hands-On Lab</h1>
 
-<h2>Prepare & Run Code for a Simulated Device</h2>
+<h2>Simulate an IoT Device with C# Code</h2>
 <table>
 <tr>
 <td width="25%" valign="top"><br>This exercise will demonstrate a sample of code to manage a device and send device-to-cloud telemetry</td>
