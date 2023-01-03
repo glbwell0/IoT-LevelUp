@@ -3,7 +3,7 @@
 <h2>Prepare & Run Code for a Simulated Device</h2>
 <table>
 <tr>
-<td width="25%" valign="top"><br>This exercise will enable Azure's DPS to automatically register the device when its initially started.</td>
+<td width="25%" valign="top"><br>This exercise will demonstrate a sample of code to manage a device and send device-to-cloud telemetry</td>
 <td>
 
 ![EventGridDiagram](./images/DPS.png) 
