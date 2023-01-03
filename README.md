@@ -8,8 +8,7 @@ Let's get your environment setup with a few <b><a href="prerequisites.md">Prereq
 <ol>
   <li><a href="ConfigureDPS.md">Configure the Device Provisioning Service (DPS)</a>
   <li><a href="RaspberryPiSimulator.md">Simulate an IoT Device with the Online RaspberryPi Simulator</a>
-  <li><a href="RunDeviceCode.md">Simulate an IoT Device with </a>
-  <li><a href="IoTDeviceWithCode.md">Simulate an IoT Device with C# Code</a>
+  <li><a href="RunDeviceCode.md">Simulate an IoT Device with C# Code</a>
   <li><a href="EventGridAlert.md">Use Event Grid to Alert for IoT Hub Events</a>
 </h4>
 <p>
