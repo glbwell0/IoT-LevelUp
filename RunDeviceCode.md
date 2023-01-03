@@ -34,6 +34,8 @@ code .
   <li>Set additional breakpoints on code lines <b>151</b> and <b>174</b>
 </ol>
 <h3>Run the Code</h3>
+Note -The first function of this code registers the device in the IoT Hub using the Device Provisioning Service (DPS)
+<p>
 <ol>
   <li>Press <b>F5</b> to start debugging the simulator
   <li>The code will stop for observation at the start os the <b>ProvisionIoTDevice</b> function
