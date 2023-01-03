@@ -81,7 +81,7 @@ Note -The first function of this code registers the device in the IoT Hub using 
   <li>Switch to the <b>Telemetry</b> window & press the <b>Start</b> button if it's not already running
   <li>Note the telemetry is now streaming data every 2 seconds
 </ol>
-<h3>Remotely Send a Command to the Device</h3>
+<h3>Remotely Reset the Device from the Cloud</h3>
 <ol>
   <li>Select the <b>Direct Method</b> panel on the left
   <li>Type <b>reset</b> in the textbox under <b>Method name</b> <i>(must be all lowercase)</i>
