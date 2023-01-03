@@ -14,8 +14,11 @@
 <p>
 <h3>Load Azure IoT Explorer to Monitor for Telemetry</h3>
 <ol>
-  <li>Launch the Azure IoT Explorer you installed from the <b><a href="prerequisites.md">Prerequisites</a></b>
-  <li>Click the <b>RaspberryPi</b> device
+  <li>If the <b>Azure IoT Explorer</b> is not already running
+  <ul>
+    <li>Launch the Azure IoT Explorer you installed from the <b><a href="prerequisites.md">Prerequisites</a></b>
+    <li>Click the device titled <b>SimulatedDevice</b>
+  </ul>
   <li>In panel on the left, select <b>Telemetry</b>
   <li>Click the <b>Start</b> button at the top<br>
     <sub>Note:  There will not be any telemetry appearing  ...yet.</sub>
