@@ -44,19 +44,6 @@
   <li>Select the <b>SimulatedDeviceRegistration</b> registration
   <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference, titled <b>DPS Primary Key</b>
 </ol>
-<p>
-<h3>Prepare Code for an IoT Device</h3>
-<ol>
-  <li>Open a command prompt by searching for <b>cmd</b> from the Windows Search or Start menu
-  <li>Enter the following the download the sample code & launch Visual Studio Code:
-<pre><code class="lang-azurecli">
-cd\
-git clone https://github.com/glbwell0/IoT-LevelUp-Code
-cd\IoT-LevelUp-Code
-dotnet restore .
-code .
-</pre></code>
-</ol>
 <h3> Next Lab</h3>
 Next Lab: <a href="RaspberryPiSimulator.md">Demonstrate the IoT Hub with an Online RaspberryPi Simulator</a>
    
