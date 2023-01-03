@@ -3,7 +3,7 @@
 <h2>Use Event Grid to Alert for IoT Hub Events</h2>
 <table>
 <tr>
-<td width="20%" valign="top"><br>This exercise will use Azure Event Grid to trigger an email to notify someone every time an IoT device connects or disconnects.</td>
+<td width="20%" valign="top"><br>This exercise will use Azure Event Grid to trigger an email to notify someone when an IoT device connects or disconnects.</td>
 <td>
 
 ![EventGridDiagram](./images/EventGridDiagram.png) 
