@@ -42,7 +42,7 @@
 <ol>
   <li>Select the <b>Individual Enrollments</b> tab towards the top of the panel
   <li>Select the <b>SimulatedDeviceRegistration</b> registration
-  <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference, titled <b>Device Primary Key</b>
+  <li>Copy the <b>Primary Key</b> by clicking the blue <b>Copy</b> icon to the right of the entry and save for later reference, titled <b>DPS Primary Key</b>
 </ol>
 <p>
 <h3>Prepare Code for an IoT Device</h3>
@@ -61,7 +61,7 @@ code .
 <ol>
   <li>Select the <b>Program.cs</b> file in the Explorer panel on the left
   <li>Enter the <b>Scope ID</b> in line 27 between the double quotes
-  <li>Enter the <b>Primary Key</b> in line 29 between the double quotes
+  <li>Enter the <b>DPS Primary Key</b> in line 29 between the double quotes
   <li>If Visual Studio Code asks to add required assets, click <b>Yes</b>
   <li>Press <i>Ctrl</i>-<b>S</b> to save your updates
   <li>Set a <b>Breakpoint</b> on line <b>73</b> by clicking just to the left of the line number
