@@ -44,8 +44,9 @@ Note -The first function of this code registers the device in the IoT Hub using 
   <li>Copy the Connection String from the Debug Console and save for later reference & title <b>Device Connection String</b>
   <li>Press <b>F5</b> to continue running the application
   <li>Return to the Azure portal and locate the hub with a name starting with <b>IoT-LevelUp-Hub</b>
+    
   <li>Select <b>Devices</b> in the left panel and the new device should be listed
-    <br><sub>If not, click the <b>Refresh</b> button at the top of the window</sub><br>
+    
  </ol>
  <h3>Monitor the Incoming Telemetry from the Device</h3>
  <ol>
@@ -55,11 +56,12 @@ Note -The first function of this code registers the device in the IoT Hub using 
       <li>Click <b>Azure IoT Explorer</b> to launch the program
       <li>Select the hub with a title starting with <b>IoT-LevelUp-Hub</b>
     </ul>
+  <li>Click the <b>Refresh</b> button at the top of the window
   <li>Select <b>SimulatedDevice</b> from the device list  
     <i>(if the device is not listed, please ask for help)</i>
   <li>Select the <b>Telemetry</b> panel on the left
   <li>Click the <b>Start</b> button at the top of the window
-  <li>Within about 10 seconds, you should see telemetry flowing about every 5 seconds
+  <li>Within about 10 seconds, you should see telemetry flowing every 5 seconds
  </ol>
  <h3>Remotely Control Your Device with its Device Twin</h3>
  <ol>
