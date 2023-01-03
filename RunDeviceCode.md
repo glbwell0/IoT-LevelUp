@@ -53,7 +53,8 @@ code .
       <li>Click <b>Azure IoT Explorer</b> to launch the program
       <li>Select the hub with a title starting with <b>IoT-LevelUp-Hub</b>
     </ul>
-  <li>Select <b>Simulated Device</b> from the device list
+  <li>Select <b>SimulatedDevice</b> from the device list  
+    <i>(if the device is not listed, please ask for help)</i>
   <li>Select the <b>Telemetry</b> panel on the left
   <li>Click the <b>Start</b> button at the top of the window
   <li>Within about 10 seconds, you should see telemetry flowing about every 5 seconds
