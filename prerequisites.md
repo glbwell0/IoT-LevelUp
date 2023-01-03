@@ -49,5 +49,7 @@ echo "IoT Hub Connection String: $CONNECTIONSTRING"
 <li>Note that there are no deviced listed
 </ol>
 <p>
-That's all -You're ready to go!!!<p>
-  <a href="README.md"><b>Return to the Hands-on Lab<b></a>
+That's all -You're ready to go!!! Lets start with the first lab<p>
+  <a href="ConfigureDPS.md"><b>Configure the Device Provisioning Service (DPS)</b></a><p>
+  <i>or...</i><p>
+  <a href="README.md"><b>Return to the Main Page</b></a>
