@@ -1,6 +1,6 @@
 <h1>Hands-On Lab</h1>
 
-<h2>Configure the Device Provisioning Service (DPS)</h2>
+<h2>Prepare & Run Code for a Simulated Device</h2>
 <table>
 <tr>
 <td width="25%" valign="top"><br>This exercise will enable Azure's DPS to automatically register the device when its initially started.</td>
@@ -11,8 +11,18 @@
 </td>
 </tr>
 </table>
-<p>
-<h3>Prepare & Run Code for a Simulated Device</h3>
+<h3>Download & Prepare Code for an IoT Device</h3>
+<ol>
+  <li>Open a command prompt by searching for <b>cmd</b> from the Windows Search or Start menu
+  <li>Enter the following the download the sample code & launch Visual Studio Code:
+<pre><code class="lang-azurecli">
+cd\
+git clone https://github.com/glbwell0/IoT-LevelUp-Code
+cd\IoT-LevelUp-Code
+dotnet restore .
+code .
+</pre></code>
+</ol>
 <ol>
   <li>Select the <b>Program.cs</b> file in the Explorer panel on the left
   <li>Enter the <b>Scope ID</b> in line 27 between the double quotes
