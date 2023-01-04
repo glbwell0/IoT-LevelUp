@@ -62,7 +62,7 @@
      <li>Type <b>IoT Device Connection Alert:</b>, then click the <b>Add dynamic content</b> link
      <li>Search for <b>eventType</b> and select it
    </ul>
- <li><b>Body:</b> Write the text for your email and include some dynamic content based on event data. If you can't see the Dynamic content, select the <b>Add dynamic content</b> hyperlink under the <b>Body</b> text box. If it doesn't show you the fields you want, click more in the Dynamic content screen to include the fields from the previous action.
+ <li><b>Body:</b> Write the text for your email and include some dynamic content based on event data. If you can't see the Dynamic content, select the <b>Add dynamic content</b> hyperlink under the <b>Body</b> text box. If it doesn't show you the fields you want, click <b>more</b> in the Dynamic content screen to include the fields from the previous action.
  
  ![AlertEmailBody](./images/IoTDeviceConnectionStateAlert-Body.png)
  <li>Click the <b>Save</b> button at the top of the page
