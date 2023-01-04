@@ -95,6 +95,7 @@ Note -The first function of this code registers the device in the IoT Hub using 
   <li>Click the <b>Invoke Method</b> located at the top of the window again & note you receive a successful response
   <li>Return to <b>Visual Studio Code</b> and stop the devices application by clicking the <b>Stop</b> button at the top of the window
     <img src="./images/VisualStudio-Stop.png">
+  <li>You can now close <b>Visual Studio Code</b>
 </ol>
 <h3>Next Lab</h3>
 Next Lab: <a href="RaspberryPiSimulator.md">Simulate an IoT Device with the Online RaspberryPi Simulators</a>
