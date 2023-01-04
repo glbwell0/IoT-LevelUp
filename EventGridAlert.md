@@ -14,12 +14,14 @@
 <p>
 <h3>Create a Logic App That Sends an Email</h3>
 <ol>
-  <li>In the Azure portal, click <b>Create a Resource</b> and search for <b>Logic App</b>
+  <li>In the Azure portal, open the <b>Resource Group</b> with the title that starts with <b>IoT-LevelUp</b>
+  <li>At the top of the window, click <b>Create</b> and search for <b>Logic App</b>
+  <li>Click the tile titled <b>Logic App</b> by <b>Microsoft</b>
   <li>Click the <b>Create</b> button
   <li>Enter the following details:
     <ul>
-      <li><b>Resource Group:</b>  Select the desired resource group
-      <li><b>Logic App Name:</b>  IoTDeviceConnectionAlert-<i>your initials</i>  (this must be a unique name across Azure)
+      <li><b>Resource Group:</b> Select the <b>Resource Group</b> with the title starting <b>IoT-LevelUp</b>
+      <li><b>Logic App Name:</b> IoTDeviceConnectionAlert-<i>your initials</i>  (this must be a unique name across Azure)
       <li><b>Region:</b>  East US (or your preferred region)
       <li><b>Plan Type:</b> Consumption
     </ul>
@@ -63,12 +65,12 @@
  <li><b>Body:</b> Write the text for your email and include some dynamic content based on event data. If you can't see the Dynamic content, select the <b>Add dynamic content</b> hyperlink under the <b>Body</b> text box. If it doesn't show you the fields you want, click more in the Dynamic content screen to include the fields from the previous action.
  
  ![AlertEmailBody](./images/IoTDeviceConnectionStateAlert-Body.png)
- 
+ <li>Click the <b>Save</b> button at the top of the page
  <li>Return to the first task titled <b>When a HTTP request is received</b> by clicking the box
- <li>Copy the <b>HTTP POST URL</b>.  We're going to use this when configuring the Event Grid.
+ <li>Copy the <b>HTTP POST URL</b> by clicking the <b>Copy</b> button to the right of the field
  
  ![WebHookURL](./images/HTTPWebHook-URL.png)
- 
+ <li>Paste this with a title <b>HTTP Post URL</b> for later reference
 </ol>
 <h3>Create & Configure an Event Grid Subscription for IoT Hub Events</h2>
 <ol>
@@ -110,12 +112,12 @@
 <li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com">https://shell.azure.com</a>
 <li>Run the following command to create a simulated device identity:
 <p>
-  <pre><code class="lang-azurecli">az iot hub device-identity create --device-id SimulatedDevice --hub-name <i>{YourIoTHubName}</i>
+  <pre><code class="lang-azurecli">az iot hub device-identity create --device-id SimulatedDevice2 --hub-name <i>{YourIoTHubName}</i>
 </code></pre>
 <sub>The processing could take a minute. You'll see a JSON printout in your console once it's created.</sub><p>
 <li>Run the following command to simulate connecting your device to IoT Hub and sending telemetry:
 <p>
-  <pre><code class="lang-azurecli">az iot device simulate -d SimulatedDevice -n <i>{YourIoTHubName}</i>
+  <pre><code class="lang-azurecli">az iot device simulate -d SimulatedDevice2 -n <i>{YourIoTHubName}</i>
 </code></pre>
 <li>When the simulated device connects to IoT Hub, you'll receive an email notifying you of a <b>"DeviceConnected"</b> event
 <li>When the simulation completes, you'll receive an email notifying you of a <b>"DeviceDisconnected"</b> event
