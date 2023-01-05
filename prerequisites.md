@@ -27,11 +27,15 @@ SCOPEID=$(az iot dps show --name $dpsName --query "properties.idScope")
 az iot hub create --name $iotHubName --resource-group $resourceGroup --sku S1 
 CONNECTIONSTRING=$(az iot hub connection-string show -n $iotHubName --policy-name iothubowner --key-type primary --query "connectionString")
 
+echo " "
+echo "--- Copy the Following Lines to NotePad for Reference Throughout the Lab ---"
 echo "Resource Group Name: $resourceGroup"
-echo "DPS Scope ID: $SCOPEID"
 echo "IoT Hub Connection String: $CONNECTIONSTRING"
+echo "RaspberryPi Connection String: "
+echo "DPS Scope ID: $SCOPEID"
+echo "DPS Primary Key: "
 </pre></code>
-  <li>Copy the last 3 lines that include the <b>Resource Group Name</b>, <b>DPS Scope ID</b>, and <b>IoT Hub Connection String</b> for later reference
+  <li>Copy the last 5 lines that include the <b>Resource Group Name</b>, <b>DPS Scope ID</b>, and <b>IoT Hub Connection String</b> for later reference
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
