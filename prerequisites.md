@@ -29,11 +29,11 @@ CONNECTIONSTRING=$(az iot hub connection-string show -n $iotHubName --policy-nam
 
 echo " "
 echo "--- Copy the Following Lines to NotePad for Reference Throughout the Lab ---"
-echo "Resource Group Name:           $resourceGroup"
+echo "Resource Group Name: $resourceGroup"
 eval echo "IoT Hub Connection String: $CONNECTIONSTRING"
 echo "RaspberryPi Connection String: "
-eval echo "DPS Scope ID:                  $SCOPEID"
-echo "DPS Primary Key:               "
+eval echo "DPS Scope ID: $SCOPEID"
+echo "DPS Primary Key: "
 </pre></code>
   <li>Copy the last 5 lines for later reference
 </ol>
