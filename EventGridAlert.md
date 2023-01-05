@@ -118,5 +118,6 @@
 <li>When the simulated device connects to IoT Hub, within ~2 minutes you'll receive an email notifying you of a <b>"DeviceConnected"</b> event
 <li>Enter <b><i>Ctrl</i>-C</b> to cancel the simulation, you'll receive an email notifying you of a <b>"DeviceDisconnected"</b> event
 </ol>
-<br><br>
-You can now return to the <a href="README.md">Main Lab Screen</a>
+<br>
+<b>Congrats!!!  You're All Done!</b>
+<p>You can now return to the <a href="README.md">Main Lab Screen</a>
