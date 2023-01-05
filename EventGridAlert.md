@@ -22,7 +22,7 @@
     <ul>
       <li><b>Resource Group:</b> Select the <b>Resource Group</b> with the title starting <b>IoT-LevelUp</b>
       <li><b>Logic App Name:</b> IoTDeviceConnectionAlert-<i>your initials</i>  (this must be a unique name across Azure)
-      <li><b>Region:</b>  East US (or your preferred region)
+      <li><b>Region:</b>  East US (because that is where your IoT Hub is located)
       <li><b>Plan Type:</b> Consumption
     </ul>
   <li>Click <b>Review + Create</b>, and then click <b>Create</b>
