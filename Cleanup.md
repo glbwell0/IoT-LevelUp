@@ -8,7 +8,7 @@
 <li>Run the following script in the Azure Shell CLI:
 <br><sub>This will take about 5 minutes to complete</sub>
 <pre><code class="lang-azurecli">
-Remove-AzResourceGroup -Name <i>{YourIoTHubName}</i>
+az group delete --name <i>{YourIoTHubName}</i>
 </pre></code>
 <p>
 <b>Things are all good here!!!</b><br>
