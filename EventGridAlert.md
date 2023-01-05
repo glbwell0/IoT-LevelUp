@@ -52,8 +52,9 @@
  </code></pre>
  <li>Select <b>+ New Step</b>. A window appears, prompting you to <b>Choose an action</b>
  <li>Search for <b>Outlook</b> and select <b>Outlook.com</b>
- <li>Select the <b>Send an email (V2)</b> action.  This will open a window to login to your account
- <li>Select <b>Sign in</b> and sign in to your email account. Select <b>Yes</b> to let the app access your info
+ <li>Select the <b>Send an email (V2)</b> action.  This will open a window to login to an Outlook.com account <i>(Do not use your corporate account)</i>
+ <li>Select <b>Sign in</b> and sign in with the <b>free Outlook email account</b> that you created in the <a href="./prerequisites.md">Prerequisites</a>
+ <li>Select <b>Yes</b> to let the app access your info
  <li>Build your email template with the following:
  <ul>
    <li><b>To:</b> Enter your email address (or an account where you want the notification sent)
@@ -119,10 +120,8 @@
 <p>
   <pre><code class="lang-azurecli">az iot device simulate -d SimulatedDevice2 -n <i>{YourIoTHubName}</i>
 </code></pre>
-<li>When the simulated device connects to IoT Hub, you'll receive an email notifying you of a <b>"DeviceConnected"</b> event
-<li>When the simulation completes, you'll receive an email notifying you of a <b>"DeviceDisconnected"</b> event
+<li>When the simulated device connects to IoT Hub, within ~2 minutes you'll receive an email notifying you of a <b>"DeviceConnected"</b> event
+<li>Enter <b><i>Ctrl</i>-C</b> to cancel the simulation, you'll receive an email notifying you of a <b>"DeviceDisconnected"</b> event
 </ol>
 <br><br>
 You can now return to the <a href="README.md">Main Lab Screen</a>
-  
-
