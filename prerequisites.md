@@ -29,13 +29,13 @@ CONNECTIONSTRING=$(az iot hub connection-string show -n $iotHubName --policy-nam
 
 echo " "
 echo "--- Copy the Following Lines to NotePad for Reference Throughout the Lab ---"
-echo "Resource Group Name: $resourceGroup"
-echo "IoT Hub Connection String: $CONNECTIONSTRING"
+echo "Resource Group Name:           $resourceGroup"
+eval echo "IoT Hub Connection String: $CONNECTIONSTRING"
 echo "RaspberryPi Connection String: "
-echo "DPS Scope ID: $SCOPEID"
-echo "DPS Primary Key: "
+eval echo "DPS Scope ID:                  $SCOPEID"
+echo "DPS Primary Key:               "
 </pre></code>
-  <li>Copy the last 5 lines that include the <b>Resource Group Name</b>, <b>DPS Scope ID</b>, and <b>IoT Hub Connection String</b> for later reference
+  <li>Copy the last 5 lines for later reference
 </ol>
   <br>
 <h3>Install Visual Studio Code</h3>
@@ -51,7 +51,7 @@ echo "DPS Primary Key: "
 <li>Click <a href="https://github.com/Azure/azure-iot-explorer/releases/download/v0.15.4/Azure.IoT.Explorer.Preview.0.15.4.msi">here</a> to download and install.
 <li>Launch the application if it does not automatically start
 <li>Click the <b>+ Add Connection</b> button
-<li>Paste your <b>IoT Hub's Connection String</b> and click the <b>Save</b> button
+<li>Paste your <b>IoT Hub's Connection String</b> from NotePad and click the <b>Save</b> button
 <li>Note that there are no deviced listed
 </ol>
 <br>
