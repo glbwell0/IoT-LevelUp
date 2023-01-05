@@ -72,6 +72,6 @@ echo "DPS Primary Key: "
 </ol>
 <p>
 That's all -You're ready to go!!! Lets start with the first lab<p>
-  <a href="ConfigureDPS.md"><b>Configure the Device Provisioning Service (DPS)</b></a><p>
+  <a href="RaspberryPiSimulator.md"><b>Simulate an IoT Device with the Online RaspberryPi Simulator</b></a><p>
   <i>or...</i><p>
   <a href="README.md"><b>Return to the Main Page</b></a>
