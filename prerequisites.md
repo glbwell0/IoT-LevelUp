@@ -34,6 +34,7 @@ eval echo "IoT Hub Connection String: $CONNECTIONSTRING"
 echo "RaspberryPi Connection String: "
 eval echo "DPS Scope ID: $SCOPEID"
 echo "DPS Primary Key: "
+echo "SimulatedDevice Connection String: "
 </pre></code>
   <li>Copy the last 5 lines for later reference
 </ol>
