@@ -111,14 +111,9 @@
 <h3>Simulate a New Device Connecting and Sending Telemetry</h3>
 <ol>
 <li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com">https://shell.azure.com</a>
-<li>Run the following command to create a simulated device identity:
-<p>
-  <pre><code class="lang-azurecli">az iot hub device-identity create --device-id SimulatedDevice2 --hub-name <i>{YourIoTHubName}</i>
-</code></pre>
-<sub>The processing could take a minute. You'll see a JSON printout in your console once it's created.</sub><p>
 <li>Run the following command to simulate connecting your device to IoT Hub and sending telemetry:
 <p>
-  <pre><code class="lang-azurecli">az iot device simulate -d SimulatedDevice2 -n <i>{YourIoTHubName}</i>
+  <pre><code class="lang-azurecli">az iot device simulate -d SimulatedDevice -n <i>{YourIoTHubName}</i>
 </code></pre>
 <li>When the simulated device connects to IoT Hub, within ~2 minutes you'll receive an email notifying you of a <b>"DeviceConnected"</b> event
 <li>Enter <b><i>Ctrl</i>-C</b> to cancel the simulation, you'll receive an email notifying you of a <b>"DeviceDisconnected"</b> event
