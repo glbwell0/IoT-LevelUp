@@ -1,6 +1,8 @@
 <h1>Prerequisites</h1>
 
 <h3>Create a new Resource Group with an IoT Hub</h3>
+🚩<b><i>Open NotePad or a similiar application to record details that you will reference during the lab</b></i>🚩
+<p>
 <ol>
 <li>Sign into an Azure CLI by navigating to <a href="https://shell.azure.com" target="_blank">https://shell.azure.com</a>
 <p>
@@ -47,6 +49,22 @@ echo "IoT Hub Connection String: $CONNECTIONSTRING"
 <li>Click the <b>+ Add Connection</b> button
 <li>Paste your <b>IoT Hub's Connection String</b> and click the <b>Save</b> button
 <li>Note that there are no deviced listed
+</ol>
+<br>
+<h3>Create a Free Outlook Email Account</h3>
+<ol>
+  <li>Using a browser, open a <b>New InPrivate</b> window
+  <li>Navitage to <a href="https://outlook.com">https://outlook.com</a>
+  <li>Click the <b>Create Free Account</b> button at the bottom of the window
+  <li>Enter a unique email address and select the <b>@outlook.com</b> domain
+  <li>Click the <b>Next</b> button and create a valid password
+  <li>Uncheck the option for <b><i>Tips and Offers</b></i>
+  <li>Record your <b>Email Address</b> and <b>Password</b> for later reference
+  <li>Click the <b>Next</b> button
+  <li>Enter your <b>First</b> and <b>Last Name</b>
+  <li>Click the <b>Next</b> button
+  <li>Select your <b>Country/Region</b> and enter your <b>Birthday</b>
+  <li>Click the <b>Next</b> button and solve the puzzle to confirm your human
 </ol>
 <p>
 That's all -You're ready to go!!! Lets start with the first lab<p>
