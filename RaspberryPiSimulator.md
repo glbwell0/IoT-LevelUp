@@ -47,4 +47,4 @@
   <li>Return to the <b>RaspberryPi Simulator</b> and click the <b>Stop</b> link located just below the code window
 </ol>
 <h3>Next Lab</h3>
-Next Lab: <a href="EventGridAlert.md">Use Event Grid to Alert for IoT Hub Events</a>
+Next Lab: <a href="ConfigureDPS.md">Configure the Device Provisioning Service (DPS)</a>
