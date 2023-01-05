@@ -120,4 +120,4 @@
 </ol>
 <br>
 <b>Congrats!!!  You're All Done!</b>
-<p>You can now return to the <a href="README.md">Main Lab Screen</a>
+<p>You can now <a href="Cleanup.md"><b>Clean-up Your Azure Resources</b></a>
