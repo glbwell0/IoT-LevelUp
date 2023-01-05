@@ -14,8 +14,7 @@
 <p>
 <h3>Configure the Device's Registration</h3>
 <ol>
-  <li>Open the Azure portal by navigating to <a href="https://portal.azure.com">https://portal.azure.com</a>
-  <li>Locate the <b>Resource Group</b> that was created in the <b><a href="prerequisites.md">Prerequisites</a></b>
+  <li>Return to the <b>Resource Group</b> that was created in the <b><a href="prerequisites.md">Prerequisites</a></b>
   <li>Open the <b>Device Provisioning Service (DPS)</b> with the name that starts <b>IoT-LevelUp-DPS</b>
   <li>Select the <b>Linked IoT Hubs</b> in the left panel and note that there are no associated IoT Hubs
   <li>Click the <b>+Add</b> at the top of the window
